@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool:
+pool: 
+  name: Azure Pipelines # ms hosted 
   vmImage: ubuntu-latest
 
 variables:
